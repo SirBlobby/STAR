@@ -23,6 +23,7 @@ Live at [playdex.sirblob.co](https://playdex.sirblob.co).
 - Search and discover games, with details, screenshots, artwork and trailers from IGDB
 - A releases page with games out in the last 30 days and games with a set release day in the next 90 days, refreshed daily from IGDB
 - A search box that opens from the header, the phone tab bar, `/` or Ctrl+K, with games, players and pages in one list. Start with `@` to only search players or `>` to only search pages
+- Filter game searches with `before:`, `after:` and `year:` for release dates, `by:`, `dev:` and `pub:` for studios, and `genre:`, `platform:` and `theme:`. Use quotes for names with spaces, like `dev:"team cherry"`. Filters show as chips in the search box and also work on the Discover page
 - Filter a game's reviews by rating and by the reviewer's playtime. Each review shows the reviewer's library status and playtime
 - Game pages show time to beat, store links, DLC, expansions, editions, remakes and remasters, age ratings, game modes, perspectives and themes from IGDB
 - Similar games from IGDB when no players have rated a game yet
