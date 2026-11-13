@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="logo.svg" alt="STAR" width="288" />
+  <img src="logo.svg" alt="Playdex" width="396" />
 </p>
 
-# STAR: Score, Track, Archive, Review
+# Playdex
 
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-3-FF3E00?logo=svelte&logoColor=white)](https://svelte.dev/docs/kit)
 [![Svelte](https://img.shields.io/badge/Svelte-5-FF3E00?logo=svelte&logoColor=white)](https://svelte.dev)
@@ -32,10 +32,11 @@ Live at [playdex.sirblob.co](https://playdex.sirblob.co).
 - Image uploads show a preview of the picture before you send it
 - Export a game card image with your rating, review and playtime, styled with your profile colors and fonts
 - Submit missing games and suggest edits to any detail, including store links, videos, a banner, screenshots and artwork, or pick images to remove. Moderators review them before they go live, and edits stay when a game refreshes from IGDB
+- Crop a cover, banner, screenshot or artwork before it uploads in Suggest an edit and Submit a game, or keep the original image
 - Game series: filled in from IGDB and linked by players from Suggest an edit. Each game page shows the rest of its series, and new links are approved by a moderator
 - The Suggest an edit form reminds players to also fix the game on IGDB, so the change reaches every site that uses it
 - Hover over a game cover on the homepage, discover, game pages, profiles and review cards to see its genres, platforms, developers, publishers, release date, summary, ratings and time to beat
-- Hover over a STAR rating to see a bar chart of how players rated the game
+- Hover over a Playdex rating to see a bar chart of how players rated the game
 - An account setting to show, blur or hide adult games across the whole site
 - A homepage with continue playing, popular games, picks from your friends, new and upcoming releases, recent reviews, fresh lists and the total playtime of every player
 
@@ -86,19 +87,20 @@ Live at [playdex.sirblob.co](https://playdex.sirblob.co).
 - A marketplace, linked from the footer, to search and browse themes, profile pictures and backgrounds by popularity or newest, and apply them in one click
 - Picked for you: the marketplace recommends themes, pictures and backgrounds made for games you are playing or have played
 - Applying a theme makes your profile match it exactly, including removing your banner or background when the theme has none
-- Official STAR themes with pixel art banners and tiled backgrounds: STAR Classic, Arcade Night, Pocket Green, Slime Meadow, Dragon Ember, Ghost Light and Coin Rush
+- Official Playdex themes with pixel art banners and tiled backgrounds: Playdex Classic, Arcade Night, Pocket Green, Slime Meadow, Dragon Ember, Ghost Light and Coin Rush
 
 ### Friends and feed
 
 - Send and accept friend requests
 - Reply to reviews
 - A feed of your friends' activity with likes and comments, shown as cards, a compact list or a cover grid
+- Steam imports in the feed show the covers and names of the games that were added
 - Notifications for likes, comments, review replies, profile comments, friend requests, list invites, reviewed submissions, wishlisted games coming out, and friends reviewing a game you own or starting a game on your wishlist
 - Live updates over websockets: the feed, notifications and shared lists refresh on their own when something changes
 - The feed loads older activity as you scroll
 - Notification settings: turn each kind on or off for the site, email and push, mark single notifications read, dismiss them one at a time or clear them all, and similar likes and comments are grouped
 - Browser push notifications on any device where you turn them on
-- Email notifications with a pixel art space banner and starfield background, styled like the rest of STAR
+- Email notifications with a pixel art space banner and starfield background, styled like the rest of Playdex
 - Email summaries, weekly by default or daily, with wishlisted games that came out or are coming soon, waiting friend requests, new comments and likes. Summaries are only sent when there is something new and stay inside the daily email limit
 - Recommendations: games that fans of a game also liked, and what is popular with your friends this week
 
@@ -125,13 +127,14 @@ Live at [playdex.sirblob.co](https://playdex.sirblob.co).
 ### Site settings
 
 - Site themes for the whole app: Cerberus, Flats, Tokyo Night, Night Cat, Catppuccin, Arch Linux, Gruvbox, Nord, Kanagawa, Wintry and Rose
-- A site wide light mode with its own theme choice: STAR Light, GitHub Light, Frost, Sakura, Catppuccin Latte, Rose Pine Dawn, Tokyo Night Day, Gruvbox Light, Nord Snow and Kanagawa Lotus
+- A site wide light mode with its own theme choice: Playdex Light, GitHub Light, Frost, Sakura, Catppuccin Latte, Rose Pine Dawn, Tokyo Night Day, Gruvbox Light, Nord Snow and Kanagawa Lotus
 - Accessibility settings: reduce or keep motion, color blind friendly palettes and grayscale, high contrast, larger text, underlined links, simpler headings and a stronger focus outline
 - Dates and times follow your browser time zone, or a time zone you pick in your profile settings
-- A features page that sums up what STAR can do
-- Installable as an app, with game pages and your library cached for offline use. Phones get a banner to add STAR to the home screen, with an install button on Android and Share steps on iPhone
+- A features page that sums up what Playdex can do
+- Installable as an app, with game pages and your library cached for offline use. Phones get a banner to add Playdex to the home screen, with an install button on Android and Share steps on iPhone
 - A header with Discover, Releases, Feed and a Community menu for Lists, Journal and Marketplace
-- A bottom tab bar on phones with Library, Feed, Search, Alerts and Profile that stays clear of the home indicator, a mobile menu with a Browse grid and your pages, and loading placeholders while pages load
+- An account menu grouped into Games, Social and Settings, with your profile, dashboard, library, lists, reviews, stats, journal, friends, notifications, creator dashboard, settings, connections, site theme and help
+- A bottom tab bar on phones with Library, Feed, Search, Alerts and Profile that stays clear of the home indicator, a mobile menu with a Browse grid and your pages in the same Games, Social and Settings groups, and loading placeholders while pages load
 - Keyboard shortcuts: `/` or Ctrl+K to search, `g` then a letter to jump to a page, `w` to write a journal post and `?` for the full list
 - Empty pages point you to what to do next, like importing from Steam or finding players
 - Notifications are grouped by day and show the cover of the game they are about
@@ -156,7 +159,7 @@ Live at [playdex.sirblob.co](https://playdex.sirblob.co).
 
 - Connect Steam by signing in on Steam's own site, then import your owned games, playtime and wishlist. They sync automatically unless you turn it off, and you can sync by hand once every 30 minutes
 - Log in, sign up and link your account with Discord
-- The STAR Discord bot: players in the STAR server who linked Discord get games they play added to their library, playtime tracked from their sessions, Discord roles for their badges, and `/playdex profile`, `game`, `backlog` and `random` commands
+- The Playdex Discord bot: players in the Playdex server who linked Discord get games they play added to their library, playtime tracked from their sessions, Discord roles for their badges, and `/playdex profile`, `game`, `backlog` and `random` commands
 - Link Xbox, PlayStation, Nintendo Switch, Epic Games, Battle.net, GOG, itch.io and RetroAchievements profiles
 
 ### Admin and moderation
@@ -185,5 +188,5 @@ Live at [playdex.sirblob.co](https://playdex.sirblob.co).
 
 ## Support
 
-If you enjoy STAR, you can support it on [Ko-fi](https://ko-fi.com/sirblob).
+If you enjoy Playdex, you can support it on [Ko-fi](https://ko-fi.com/sirblob).
 
